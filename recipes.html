@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Recipes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <script defer src="script.js"></script>
-</head>
-<body>
+  <script src="script.js"></script>
 
+
+</head>
+<body class="recipes-page">
 
 <nav class="navbar">
   <div class="brand-title">
@@ -17,31 +19,40 @@
   <div class="navbar-links">
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="recipes.html" class="active">Recipes</a></li>
     </ul>
   </div>
 </nav>
 
-
 <header>
-  <h1 class="recipes-title">RECIPES</h1>
+  <h1>RECIPES</h1>
 </header>
-
-
+<div class = "container">
 <main class="recipes-container">
-  <a href="recipe.html?name=comingsoon1" class="recipe-card">
-    <p>Coming Soon...</p>
+  <a href="recipe1.html" class="recipe-card" data-title="chocolate pudding cake">
+    <img src="images/Milk.jpg" alt="Chocolate Pudding Cake">
+    <div class="recipe-title">Chocolate Pudding Cake</div>
   </a>
-  <a href="recipe.html?name=comingsoon2" class="recipe-card">
-    <p>Coming Soon...</p>
+  <a href="recipe2.html" class="recipe-card" data-title="cheese coated toast">
+    <img src="images/Toast.jpg" alt="Cheese-Coated Toast">
+    <div class="recipe-title">Cheese-Coated Toast</div>
   </a>
-  <a href="recipe.html?name=comingsoon3" class="recipe-card">
-    <p>Coming Soon...</p>
+  <a href="recipe3.html" class="recipe-card" data-title="chicken curry fried rice">
+    <img src="images/Chiken.jpg" alt="Chicken Curry Fried Rice">
+    <div class="recipe-title">Chicken Curry Fried Rice</div>
   </a>
-  <a href="recipe.html?name=comingsoon4" class="recipe-card">
-    <p>Coming Soon...</p>
+  <a href="recipe4.html" class="recipe-card" data-title="egg spinach tortilla pizza">
+    <img src="images/Tortilla.jpg" alt="Egg Spinach Tortilla">
+    <div class="recipe-title">Egg Spinach Tortilla</div>
   </a>
+
+
+
 </main>
+</div>
+
+
+
 
 </body>
 </html>
